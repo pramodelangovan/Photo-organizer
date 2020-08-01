@@ -3,4 +3,5 @@ lib/
 pyvenv.cfg
 share/
 **/migrations/*
-
+**/.my.cnf.*
+**/.mysql.*
