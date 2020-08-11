@@ -1,8 +1,5 @@
 from mongoengine import *
 
-connect('photoDB', username='pramod', password='@Sarathy92',  authentication_source='photoDB')
-
-
 class Paths(Document):
     path = StringField(required=True)
     active = BooleanField(default=True)

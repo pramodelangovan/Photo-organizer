@@ -1,0 +1,13 @@
+database:
+  dbName: 'photoDB'
+  host: 'localhost'
+  port: '27017'
+  username: ''
+  password: ''
+
+photoPath:
+ - ''
+
+AllowedExtensions:
+  - '.jpg | .jpeg | .JPG | .JPEG'
+  - '.PNG |.png'

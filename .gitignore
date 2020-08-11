@@ -5,3 +5,7 @@ share/
 **/migrations/*
 **/.my.cnf.*
 **/.mysql.*
+config.yaml
+**/config.yaml
+**/__pycache__/
+**/__pycache__/*

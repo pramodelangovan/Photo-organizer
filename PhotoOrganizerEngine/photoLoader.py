@@ -5,7 +5,7 @@ from datetime import datetime
 import setUp
 
 from exifProcessor import getExifData, getGPSData
-from DB.DBModels.PhotoModels import Paths, Photos, ExifData, PhotoDetails
+from db.models.photoModels import Paths, Photos, ExifData, PhotoDetails
 
 def getAllImagesFromPaths():
     fileList = list()
